@@ -3,7 +3,7 @@
 #include<assert.h>
 
 
-int my_strlen(char* str)
+int my_strlen(const char* str)
 {
 	assert(str != NULL);
 	if (*str == '\0')
